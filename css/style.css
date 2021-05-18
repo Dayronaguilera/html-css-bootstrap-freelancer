@@ -1,11 +1,20 @@
 .container{
     border: 1px solid black;
 }
+
+/* start utility class */
+
+
+
+/* end utility class */
+
+/* section 1 */
 nav{
     height: 60px;
     background-color: rgb(12, 12, 51);
 }
 section{
+    align-items: center;
     height: 400px;
     background-color: green;
 }
@@ -18,6 +27,8 @@ section>div{
     justify-content: center;
     align-items: center;
 }
+
+/* section 2 */
 figure{
     height: 400px;
 }
@@ -28,23 +39,50 @@ figure .box{
     height: 160px;
     border: 1px black solid;
 } 
+figure .box:nth-child(1){
+    background-color: brown;
+}
+figure .box:nth-child(2){
+    background-color: rgb(84, 172, 223);
+}figure .box:nth-child(3){
+    background-color: rgb(0, 0, 0);
+}figure .box:nth-child(4){
+    background-color: rgb(43, 123, 177);
+}figure .box:nth-child(5){
+    background-color: rgb(52, 109, 214);
+}figure .box:nth-child(6){
+    background-color: rgb(204, 147, 164);
+}
+/* section 3 */
 article{
-    height: 300px;
+    height: 400px;
     background-color: green;
     text-align: center;
 }
 article .box{
-    height: 200px;
+    height: 300px;
     border: 1px black solid;
 }
+
+/* section 4 */
 .contact{
     height: 400px;
 }
-footer div:first-child{
-    height: 100px;
+.contact div{
+    border: 1px black solid;
+}
+
+/* footer */
+footer .top-footer{
+    text-align: center;  
     background-color: indigo;
 }
-footer div:nth-child(2){
+.top-footer div{
+    border: 1px black solid;
+}
+.footer{
+    align-items: center;
+    text-align: center;
     height: 50px;
     background-color: lightblue;
     
