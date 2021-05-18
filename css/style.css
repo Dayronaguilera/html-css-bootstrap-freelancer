@@ -10,16 +10,32 @@ section{
     background-color: green;
 }
 section>div{
-    width: 200px;
     height: 350px;
     border: 2px black solid;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 figure{
     height: 400px;
 }
+figure> div{
+    text-align: center; 
+}
+figure .box{
+    height: 160px;
+    border: 1px black solid;
+} 
 article{
     height: 300px;
     background-color: green;
+    text-align: center;
+}
+article .box{
+    height: 200px;
+    border: 1px black solid;
 }
 .contact{
     height: 400px;
