@@ -15,11 +15,11 @@ nav{
 }
 section{
     align-items: center;
-    background-color: green;
+    background-color: rgb(34, 197, 116);
 }
 section>div{
     height: 350px;
-    border: 1px black solid;
+   
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ figure> div{
 }
 figure .box{
     height: 160px;
-    border: 1px black solid;
+    
 } 
 figure .box:nth-child(1){  
     background-color: brown;
@@ -57,12 +57,13 @@ figure .box:nth-child(6){
 
 /* section 3 */
 article{
-    background-color: green;
+    background-color: rgb(34, 197, 116);
     text-align: center;
 }
 article .box{
-    height: 300px;
-    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    height: 250px;
 }
 
 /* section 4 */
