@@ -21,12 +21,16 @@ hr{
 
 /* end utility class */
 
-/* section 1 */
-.navbar{  
+/* nav section + section 1*/
+.navbar{ 
+    color: white; 
     background-color: rgb(19, 19, 83);
 }
 .navbar-collapse{
     flex-grow: 0;
+}
+nav .navbar-brand{
+    font-weight: bold;
 }
 section{
     text-align: center;
@@ -47,8 +51,11 @@ section>div svg{
 section>div span{
     padding-bottom: 10px;
 }
-/* section 2 */
 
+/* section 2 */
+.title-figure>h1{
+    margin-top: 40px;
+}
 figure>div{
     text-align: center; 
     margin-top: 30px;
@@ -66,49 +73,80 @@ article{
     color: white;
 
 }
-article .box{  
+article .box{
+    margin-top: 20px; 
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
 .title-article>h1{
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
 }
 article button{
     background-color: transparent;
     border: 1px white solid;
-    padding: 5px 0px;
+    padding: 10px 0px;
     margin-bottom: 50px;
     color: white;
+    display: flex;
+    justify-content: center;
+}
+article button i{
+    margin-right: 5px;
 }
 
 /* section 4 */
-.contact{ 
-    text-align: center;
-    height: 400px;
-}
+
 .contact div h1{
-    margin: 20px 0px;
+    text-align: center;
+    margin-top: 40px;
 }
 .input> input{
+    line-height: 40px;
     width: 100%;
     border: none;
-    border-bottom: 1px black solid;
-   
-    
+    border-bottom: 1px rgb(149, 149, 149) solid;    
+}
+.input>textarea{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px rgb(149, 149, 149) solid;
+}
+.input>button{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 5px 10px;
 }
 /* footer */
-footer .top-footer{
+footer{
+    background-color: rgb(30, 57, 83);
+
+}
+.top-footer{
+    color: white;
     text-align: center;  
-    background-color: indigo;
 }
-.top-footer div{
-    border: 1px black solid;
+.top-footer h3{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
+.top-footer span{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+/* copyright */
 .footer{
     align-items: center;
     text-align: center;
-    height: 50px;
-    background-color: lightblue;
-    
+    background-color: rgb(2, 20, 44);  
+}
+.footer div>h5{
+    color:white;
+    font-size: 10px;
+    margin-top:20px ;
+    margin-bottom: 20px;
 }
