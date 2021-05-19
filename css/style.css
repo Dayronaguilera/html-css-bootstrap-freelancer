@@ -62,13 +62,24 @@ figure>div{
 
 /* section 3 */
 article{
-    background-color: rgb(34, 197, 116);
-    text-align: center;
+    background-color: rgb(55, 177, 161);
+    color: white;
+
 }
-article .box{
+article .box{  
     display: flex;
     align-items: center;
-    height: 250px;
+}
+.title-article>h1{
+    margin-top: 30px;
+    text-align: center;
+}
+article button{
+    background-color: transparent;
+    border: 1px white solid;
+    padding: 5px 0px;
+    margin-bottom: 50px;
+    color: white;
 }
 
 /* section 4 */
