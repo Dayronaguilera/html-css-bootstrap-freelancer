@@ -1,6 +1,13 @@
 
 /* start utility class */
-
+hr{
+  width: 150px;
+  border: 1px white solid;  
+  margin: 0px 10px;
+  opacity: 1;
+  
+  
+}
 
 
 /* end utility class */
@@ -13,20 +20,32 @@
     flex-grow: 0;
 }
 section{
+    text-align: center;
     align-items: center;
-    background-color: rgb(34, 197, 116);
+    background-color: rgb(55, 177, 161);
+    color: white;
 }
 section>div{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 40PX;
 }
 
+section>div svg{
+    width: 300px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.center-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+section>div span{
+    padding-bottom: 10px;
+}
 /* section 2 */
 
-figure> div{
+figure>div{
     text-align: center; 
 }
 
